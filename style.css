@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+:root {
+--theme--color:#042d29; 
+}
+
+body { 
+background-color: #fafafa;
+}
+
+.ctn {
+  position: absolute; 
+  transform: translate(-50%,-50%); 
+  top: 50%; 
+  left: 50%;
+}
+
+.card {
+  height: 420x; 
+  width: 320px; 
+  background: linear-gradient(
+  to bottom, var(--theme--color) 110px,
+  #ffffff 110px); 
+  border-radius: 10px; 
+box-shdow: 0 5px 15px rgba(50,50,50,0.1);
+  padding: 50px 0; 
+}
+
+.card *{
+  font-family: 'Montserrat';
+  text-align: center; 
+  letter-spacing: 0.5px; 
+}
+
+img {
+  display: block; 
+  height: 100px; 
+  width:100px;
+  border-radius: 50%; 
+  position: relative; 
+  margin: 0 auto; 
+  object-fit: cover; 
+  box-shadow: 0 0 0 5px #ffffff; 
+}
+
+.card h4 {
+  color: var(--theme--color); 
+  font-size: 16px; 
+  margin: 15px 0 5px 0; 
+}
+
+.card h5 {
+  color: #454545; 
+  font-weight: 400; 
+  font-size: 14px; 
+}
+
+.details { 
+  width: 100%; 
+  margin-top: 30px;
+  display: flex; 
+  justify-content: space-around; 
+}
+
+.details h2 {
+  font-weight: 400; 
+}
+
+.details span {
+  color: var(--theme--color); 
+}
+
+.btns {
+  width: 100%; 
+  display: flex; 
+  justify-content: space-around; 
+  margin-top: 30px; 
+}
+
+.btns button {
+  width: 130px; 
+  padding: 8px 0; 
+  border-radius: 25px; 
+  border: 3px solid var(--theme--color);
+  cursor: pointer;
+}
+
+.btns button:first-child{
+  background-color: var(--theme--color);
+  color: #ffffff;
+}
+.btns button:last-child {
+  background-color: transparent; 
+  color: var(--theme-color);
+}
+
+/* themes */
+.themes {
+  background-color: #ffffff; 
+  box-shadow: 0 5px 15px rgba(50,50,50,0.1);
+  padding: 20px; 
+  margin-top: 40px; 
+  display: flex; 
+  justify-content: space-around; 
+}
+
+.themes button {
+  height: 25px; 
+  width: 25px; 
+  border: 3px solid #dddddd; 
+  outline: none; 
+  border-radius: 50%; 
+  cursor: pointer; 
+}
+
+.btn1 {
+  background-color: var(--theme--color);
+}
+.btn2 {
+  background-color: #3E0C15;
+}
+.btn3 {
+  background-color: #96450D;
+}
+.btn4 {
+  background-color: #B37538;
+}
+.btn5 {
+  background-color: #2F3229;
+}
